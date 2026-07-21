@@ -4,6 +4,35 @@
 
 CourseTracker is an analytics project that helps identify learning behaviors that predict course completion and student drop-offs. The project analyzes course completion records, quiz performance, and student session activity to provide actionable insights for improving learner retention.
 
+## Python Workflow Script
+
+The repository now includes a modular command-line workflow script at [scripts/data_workflow.py](scripts/data_workflow.py). It separates the pipeline into three concerns:
+
+- ingest_data(filepath): Reads a CSV or JSON file and returns a Pandas DataFrame.
+- process_data(df): Removes duplicates, fills missing values, and adds a derived performance label.
+- output_results(df, output_path): Writes the processed data to disk and prints a success summary.
+
+### Run the workflow
+
+From the repository root:
+
+```bash
+python scripts/data_workflow.py
+```
+
+From the scripts directory:
+
+```bash
+python data_workflow.py
+```
+
+### Modify the workflow for a new dataset
+
+1. Place the new input file in data/raw.
+2. Update the file name in the main block if needed.
+3. Adjust the processing rules inside process_data when new columns or business logic are required.
+4. Re-run the script to generate an updated CSV in output/processed.csv.
+
 ---
 
 # Branching Strategy

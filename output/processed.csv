@@ -1,0 +1,11 @@
+student_id,name,score,course,performance_band
+1,Alice,92.0,Data Science,excellent
+2,Bob,78.0,Data Science,good
+3,Carol,85.0,Analytics,excellent
+4,David,85.0,Analytics,excellent
+5,Eve,67.0,Data Science,good
+6,Frank,88.0,Analytics,excellent
+7,Grace,91.0,Data Science,excellent
+8,Heidi,74.0,Analytics,good
+9,Ivan,81.0,Data Science,excellent
+10,Judy,95.0,Analytics,excellent
