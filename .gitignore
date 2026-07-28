@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 venv/
 .venv/
 
@@ -10,3 +11,31 @@ __pycache__/
 
 .DS_Store
 Thumbs.db
+=======
+# Node dependencies
+node_modules/
+.pnpm-store/
+
+# Production build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+>>>>>>> 1ef8b02 (feat: complete Edutrack full-stack project with frontend and backend)
