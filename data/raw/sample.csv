@@ -1,11 +1,4 @@
-student_id,name,score,course
-1,Alice,92,Data Science
-2,Bob,78,Data Science
-3,Carol,85,Analytics
-4,David,,Analytics
-5,Eve,67,Data Science
-6,Frank,88,Analytics
-7,Grace,91,Data Science
-8,Heidi,74,Analytics
-9,Ivan,81,Data Science
-10,Judy,95,Analytics
+customer_id,customer_name,transaction_amount,transaction_date
+1,Alice Smith,150.50,2025-01-15
+2,Bob Johnson,200.00,2025-01-20
+3,Carol White,75.25,2025-02-01
