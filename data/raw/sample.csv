@@ -1,0 +1,11 @@
+student_id,name,score,course
+1,Alice,92,Data Science
+2,Bob,78,Data Science
+3,Carol,85,Analytics
+4,David,,Analytics
+5,Eve,67,Data Science
+6,Frank,88,Analytics
+7,Grace,91,Data Science
+8,Heidi,74,Analytics
+9,Ivan,81,Data Science
+10,Judy,95,Analytics
